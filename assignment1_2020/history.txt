@@ -1,3 +1,26 @@
+I first started last night, and so the history is gone. I'll add what I did here:
+
+cd /home/student17/
+mkdir cloned_repo
+cd cloned_repo
+git clone https://github.com/CITA/CTA200H
+ls -la
+cd CTA200H
+ls -la
+pwd
+cp -av /home/student17/cloned_repo/CTA200H/assignment1_2020 /home/student17/Desktop/assignment1_2020
+cd /home/student17/Desktop/assignment1_2020
+ls -la
+rm assignment1_2020.pdf
+
+I then edited the files using vim. Note that I changed the #include line in the average.c and main.c files.
+To compile, I did:
+
+module load gcc/5.4.0
+g++ -pedantic -o main main.c
+
+History today:
+
   376  mkdir /home/student17/CTA200
   378  cd /home/student17/CTA200
   379  git init
