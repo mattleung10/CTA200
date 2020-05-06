@@ -1,0 +1,29 @@
+  376  mkdir /home/student17/CTA200
+  378  cd /home/student17/CTA200
+  379  git init
+  380  git remote add origin "https://mattleung10@github.com/mattleung10/CTA200.git"
+  381  git remote -v
+  382  git remote set-url origin "https://mattleung10@github.com/mattleung10/CTA200.git"
+  383  git pull --rebase origin master
+  384  ls -la
+  385  vim LICENSE
+  386  cat LICENSE
+  387  vim README.md
+  388  cat README.md
+  389  git add LICENSE README.md
+  390  git status
+  391  git commit -m "Initial Commit"
+  392  git push --set-upstream origin master
+  393  echo "*.o" > .gitignore
+  394  git status
+  395  pwd
+  396  cp -av /home/student17/Desktop/assignment1_2020 /home/student17/CTA200/
+  397  git status
+  398  git add .gitignore assignment1_2020
+  399  git status
+  400  git commit -m "Add files"
+  401  git push
+  402  pwd
+  403  cd assignment1_2020
+  404  pwd
+  405  history 32 > history.txt
